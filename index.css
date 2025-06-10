@@ -1,0 +1,74 @@
+
+
+.dot {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  z-index: 10;
+  background-color: red;
+}
+
+.dot.first {
+  background-color: yellow;
+}
+
+.dot.last {
+  background-color: green;
+}
+
+.movable {
+  cursor: move;
+}
+
+.vdot {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  z-index: 10;
+  /* background-color: magenta; */
+}
+
+.vdot.first {
+  background-color: green;
+}
+
+.vdot.second {
+  background-color: yellowgreen;
+}
+
+.line {
+  position: absolute;
+  transform-origin: center left;
+  width: 100px;
+  height: 5px;
+  z-index: 5;
+  background-color: blue;
+  /* padding: 1px; */
+}
+
+.gradLine {
+  position: absolute;
+  transform-origin: center left;
+  width: 30px;
+  height: 3px;
+  z-index: 7;
+  background-color: rgb(148, 238, 248);
+  /* padding: 1px; */
+}
+
+#counter {
+  position: absolute;
+  z-index: 15;
+  background-color: white;
+}
+
+#main {
+  width: 1000px;
+  height: 980px;
+  background-color: gray;
+}
+
+#canvas {
+  width: 1000px;
+  height: 980px;
+}
